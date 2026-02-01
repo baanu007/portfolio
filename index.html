@@ -342,43 +342,116 @@
                 <span class="section-tag">Portfolio</span>
                 <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
             </div>
-            <div class="projects-grid">
-                <div class="project-card">
+            <div class="projects-grid-large">
+                <!-- Project 1: E-Commerce Data Warehouse -->
+                <a href="https://github.com/baanu007/ecommerce-data-warehouse" target="_blank" class="project-card">
                     <div class="project-image">
                         <div class="project-visual">
                             <div class="data-flow">
-                                <div class="flow-node source">Raw Data</div>
+                                <div class="flow-node source">Raw</div>
                                 <div class="flow-arrow"></div>
                                 <div class="flow-node transform">dbt</div>
                                 <div class="flow-arrow"></div>
-                                <div class="flow-node dest">Analytics</div>
+                                <div class="flow-node dest">Marts</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Retail Analytics Pipeline</h3>
-                        <p>Built end-to-end analytics pipeline using dbt Core on Snowflake with incremental models, schema tests, and auto-generated documentation. Deployed via dbt Cloud with CI/CD integration.</p>
-                        <div class="project-tech">
-                            <span>dbt</span><span>Snowflake</span><span>CI/CD</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-visual warehouse">
-                            <div class="layer staging">Staging</div>
-                            <div class="layer intermediate">Intermediate</div>
-                            <div class="layer mart">Data Marts</div>
-                        </div>
+                        <div class="project-badge">🛒</div>
                     </div>
                     <div class="project-content">
                         <h3>E-Commerce Data Warehouse</h3>
-                        <p>Designed dimensional data warehouse with star schema on Snowflake. Ingested data from S3 using Snowpipe for real-time streaming with role-based access control and query optimization.</p>
+                        <p>Production-ready data warehouse with Medallion Architecture (Bronze/Silver/Gold), dimensional modeling, incremental processing, and comprehensive dbt tests.</p>
                         <div class="project-tech">
-                            <span>Snowflake</span><span>AWS S3</span><span>Snowpipe</span>
+                            <span>dbt</span><span>Snowflake</span><span>Python</span><span>Star Schema</span>
                         </div>
+                        <div class="project-link">View on GitHub →</div>
                     </div>
-                </div>
+                </a>
+
+                <!-- Project 2: Real-Time Streaming Pipeline -->
+                <a href="https://github.com/baanu007/realtime-streaming-pipeline" target="_blank" class="project-card">
+                    <div class="project-image">
+                        <div class="project-visual streaming">
+                            <div class="stream-line"></div>
+                            <div class="stream-dots">
+                                <span></span><span></span><span></span><span></span><span></span>
+                            </div>
+                        </div>
+                        <div class="project-badge">⚡</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Real-Time Streaming Pipeline</h3>
+                        <p>Production-grade streaming pipeline with Kafka, Spark Structured Streaming, exactly-once semantics, and multi-sink output to warehouse and cache.</p>
+                        <div class="project-tech">
+                            <span>Kafka</span><span>PySpark</span><span>AWS</span><span>Redis</span>
+                        </div>
+                        <div class="project-link">View on GitHub →</div>
+                    </div>
+                </a>
+
+                <!-- Project 3: Data Quality Framework -->
+                <a href="https://github.com/baanu007/data-quality-framework" target="_blank" class="project-card">
+                    <div class="project-image">
+                        <div class="project-visual quality">
+                            <div class="check-grid">
+                                <span class="check pass">✓</span>
+                                <span class="check pass">✓</span>
+                                <span class="check pass">✓</span>
+                                <span class="check fail">✗</span>
+                                <span class="check pass">✓</span>
+                                <span class="check pass">✓</span>
+                            </div>
+                        </div>
+                        <div class="project-badge">🔍</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Data Quality Framework</h3>
+                        <p>Comprehensive validation framework with Great Expectations, automated testing, Airflow orchestration, Slack alerting, and auto-generated data docs.</p>
+                        <div class="project-tech">
+                            <span>Great Expectations</span><span>Airflow</span><span>Python</span>
+                        </div>
+                        <div class="project-link">View on GitHub →</div>
+                    </div>
+                </a>
+
+                <!-- Project 4: AWS Serverless ETL -->
+                <a href="https://github.com/baanu007/aws-serverless-etl" target="_blank" class="project-card">
+                    <div class="project-image">
+                        <div class="project-visual warehouse">
+                            <div class="layer staging">Lambda</div>
+                            <div class="layer intermediate">Glue</div>
+                            <div class="layer mart">S3 Lake</div>
+                        </div>
+                        <div class="project-badge">☁️</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AWS Serverless ETL Pipeline</h3>
+                        <p>Fully serverless ETL with Lambda ingestion, Glue transformations, S3 data lake, EventBridge scheduling, and Terraform IaC deployment.</p>
+                        <div class="project-tech">
+                            <span>Lambda</span><span>Glue</span><span>S3</span><span>Terraform</span>
+                        </div>
+                        <div class="project-link">View on GitHub →</div>
+                    </div>
+                </a>
+
+                <!-- Project 5: Medallion Lakehouse -->
+                <a href="https://github.com/baanu007/medallion-lakehouse" target="_blank" class="project-card">
+                    <div class="project-image">
+                        <div class="project-visual medallion">
+                            <div class="medal bronze">🥉</div>
+                            <div class="medal silver">🥈</div>
+                            <div class="medal gold">🥇</div>
+                        </div>
+                        <div class="project-badge">🏅</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Medallion Lakehouse Architecture</h3>
+                        <p>Complete data lakehouse with Delta Lake ACID transactions, time travel, schema evolution, MERGE upserts, and Z-Order optimization.</p>
+                        <div class="project-tech">
+                            <span>Delta Lake</span><span>PySpark</span><span>Snowflake</span>
+                        </div>
+                        <div class="project-link">View on GitHub →</div>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -504,7 +577,7 @@
                 <div class="footer-links">
                     <a href="mailto:baanusankaroo7.bs@gmail.com">Email</a>
                     <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-                    <a href="https://github.com" target="_blank">GitHub</a>
+                    <a href="https://github.com/baanu007" target="_blank">GitHub</a>
                 </div>
             </div>
         </div>
