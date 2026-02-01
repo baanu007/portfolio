@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baanu Sai Sankar Bojja | Data Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">BSB</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-tag fade-in">Data Engineer</div>
+            <h1 class="hero-title fade-in delay-1">
+                <span class="line">Baanu Sai</span>
+                <span class="line gradient-text">Sankar Bojja</span>
+            </h1>
+            <p class="hero-subtitle fade-in delay-2">
+                Transforming raw data into strategic insights. Building scalable pipelines 
+                that drive revenue and power decisions across retail, e-commerce, and pharma.
+            </p>
+            <div class="hero-stats fade-in delay-3">
+                <div class="stat">
+                    <span class="stat-number" data-target="5">0</span>
+                    <span class="stat-suffix">+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="1.2">0</span>
+                    <span class="stat-suffix">M+</span>
+                    <span class="stat-label">GMV Recovered</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="90">0</span>
+                    <span class="stat-suffix">%</span>
+                    <span class="stat-label">Reporting Time Cut</span>
+                </div>
+            </div>
+            <div class="hero-cta fade-in delay-4">
+                <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                <a href="#experience" class="btn btn-secondary">View Work</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Crafting Data Solutions<br><span class="gradient-text">That Matter</span></h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-lead">
+                        Data Engineer with 5+ years of experience in analytics and pipeline development 
+                        across retail, e-commerce, and pharmaceutical industries.
+                    </p>
+                    <p>
+                        I build scalable ELT pipelines using Python, PySpark, and dbt on AWS and Snowflake, 
+                        delivering data models that drive revenue, improve accuracy, and reduce defects. 
+                        My work has directly contributed to recovering $1M+ GMV and cutting manual reporting by 90%.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-card">
+                            <div class="highlight-icon">🎓</div>
+                            <div class="highlight-content">
+                                <h4>Texas State University</h4>
+                                <p>Data Analytics & Information Systems</p>
+                                <span class="highlight-meta">GPA: 3.7 | 2024</span>
+                            </div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">📍</div>
+                            <div class="highlight-content">
+                                <h4>Based in Texas</h4>
+                                <p>Open to remote & relocation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="code-window">
+                        <div class="code-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="code-title">pipeline.py</span>
+                        </div>
+                        <pre class="code-content"><code><span class="keyword">class</span> <span class="class-name">DataEngineer</span>:
+    <span class="keyword">def</span> <span class="function">__init__</span>(self):
+        self.name = <span class="string">"Baanu Sai"</span>
+        self.role = <span class="string">"Data Engineer"</span>
+        self.stack = [
+            <span class="string">"Python"</span>, <span class="string">"PySpark"</span>,
+            <span class="string">"Snowflake"</span>, <span class="string">"dbt"</span>,
+            <span class="string">"AWS"</span>, <span class="string">"SQL"</span>
+        ]
+    
+    <span class="keyword">def</span> <span class="function">build_pipeline</span>(self):
+        <span class="keyword">return</span> <span class="string">"Scalable & Reliable"</span></code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Expertise</span>
+                <h2 class="section-title">Skills & <span class="gradient-text">Technologies</span></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16,18 22,12 16,6"></polyline>
+                            <polyline points="8,6 2,12 8,18"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Languages & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">PySpark</span>
+                        <span class="skill-tag">Spark SQL</span>
+                        <span class="skill-tag">Scala</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">dbt</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                        </svg>
+                    </div>
+                    <h3>Data Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Snowflake</span>
+                        <span class="skill-tag">AWS Redshift</span>
+                        <span class="skill-tag">AWS Athena</span>
+                        <span class="skill-tag">BigQuery</span>
+                        <span class="skill-tag">Kafka</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3>Cloud & Infrastructure</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS Glue</span>
+                        <span class="skill-tag">AWS Lambda</span>
+                        <span class="skill-tag">AWS S3</span>
+                        <span class="skill-tag">Terraform</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Airflow</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="20" x2="18" y2="10"></line>
+                            <line x1="12" y1="20" x2="12" y2="4"></line>
+                            <line x1="6" y1="20" x2="6" y2="14"></line>
+                        </svg>
+                    </div>
+                    <h3>Visualization & BI</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Tableau</span>
+                        <span class="skill-tag">QuickSight</span>
+                        <span class="skill-tag">DAX</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                        </svg>
+                    </div>
+                    <h3>Concepts</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">ETL/ELT</span>
+                        <span class="skill-tag">Data Modeling</span>
+                        <span class="skill-tag">Star Schema</span>
+                        <span class="skill-tag">CDC</span>
+                        <span class="skill-tag">Data Quality</span>
+                        <span class="skill-tag">A/B Testing</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                    </div>
+                    <h3>DevOps & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">CloudWatch</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Career</span>
+                <h2 class="section-title">Professional <span class="gradient-text">Experience</span></h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-title">
+                                <h3>Data Engineer</h3>
+                                <span class="company">Real Value Products – Value RX</span>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="location">San Antonio, TX</span>
+                                <span class="date">June 2024 – Present</span>
+                            </div>
+                        </div>
+                        <ul class="timeline-achievements">
+                            <li>Built end-to-end ELT pipelines in Python & PySpark with Bronze/Silver/Gold medallion architecture — <strong>improving data accuracy by ~20%</strong></li>
+                            <li>Modeled retail analytics data warehouse using dbt on Snowflake with star/snowflake schemas</li>
+                            <li>Optimized SQL Server stored procedures — <strong>reduced query times from minutes to &lt;10 seconds</strong></li>
+                            <li>Implemented automated data-quality checks — <strong>reduced listing defects by ~30%</strong></li>
+                            <li>Designed Power BI executive dashboards with RLS and custom DAX measures</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Python</span><span>PySpark</span><span>dbt</span><span>Snowflake</span><span>Power BI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-title">
+                                <h3>Data Engineering Assistant</h3>
+                                <span class="company">Texas State University</span>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="location">San Marcos, TX</span>
+                                <span class="date">June 2022 – May 2024</span>
+                            </div>
+                        </div>
+                        <ul class="timeline-achievements">
+                            <li>Built reusable SQL/Python pipelines — <strong>cut weekly report prep time by ~60%</strong></li>
+                            <li>Developed interactive Tableau/Power BI dashboards for enrollment and retention tracking</li>
+                            <li>Conducted statistical analyses (A/B tests, regression) to evaluate tutoring programs</li>
+                            <li>Implemented data-quality checks and created lightweight data dictionary</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>SQL</span><span>Python</span><span>Tableau</span><span>Power BI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-title">
+                                <h3>Business Intelligence Analyst</h3>
+                                <span class="company">Amazon</span>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="location">Bengaluru, India</span>
+                                <span class="date">March 2020 – August 2022</span>
+                            </div>
+                        </div>
+                        <ul class="timeline-achievements">
+                            <li>Built automated vendor health dashboard — <strong>reduced manual reporting by 90%</strong> and cut SLA breaches by 28%</li>
+                            <li>Created Python ETL pipelines normalizing SP-API feeds across 200+ vendors — <strong>increased anomaly detection precision by 35%</strong></li>
+                            <li>Designed SQL models tracking Buy Box inhibitors — <strong>recovered ~$1.2M GMV</strong></li>
+                            <li>Led root-cause analyses reducing chargeback incidence by 22%</li>
+                            <li>Built alerting pipeline — <strong>cut time-to-detection from 12h to &lt;30m</strong>, preventing ~$400k in margin leakage annually</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Python</span><span>AWS Glue</span><span>Lambda</span><span>Redshift</span><span>Athena</span><span>QuickSight</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-visual">
+                            <div class="data-flow">
+                                <div class="flow-node source">Raw Data</div>
+                                <div class="flow-arrow"></div>
+                                <div class="flow-node transform">dbt</div>
+                                <div class="flow-arrow"></div>
+                                <div class="flow-node dest">Analytics</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Retail Analytics Pipeline</h3>
+                        <p>Built end-to-end analytics pipeline using dbt Core on Snowflake with incremental models, schema tests, and auto-generated documentation. Deployed via dbt Cloud with CI/CD integration.</p>
+                        <div class="project-tech">
+                            <span>dbt</span><span>Snowflake</span><span>CI/CD</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-visual warehouse">
+                            <div class="layer staging">Staging</div>
+                            <div class="layer intermediate">Intermediate</div>
+                            <div class="layer mart">Data Marts</div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Data Warehouse</h3>
+                        <p>Designed dimensional data warehouse with star schema on Snowflake. Ingested data from S3 using Snowpipe for real-time streaming with role-based access control and query optimization.</p>
+                        <div class="project-tech">
+                            <span>Snowflake</span><span>AWS S3</span><span>Snowpipe</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section certifications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Credentials</span>
+                <h2 class="section-title">Certifications</h2>
+            </div>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-icon aws">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M6.763 10.036c0 .296.032.535.088.71.064.176.144.368.256.576.04.063.056.127.056.183 0 .08-.048.16-.152.24l-.503.335a.383.383 0 0 1-.208.072c-.08 0-.16-.04-.239-.112a2.47 2.47 0 0 1-.287-.375 6.18 6.18 0 0 1-.248-.471c-.622.734-1.405 1.101-2.347 1.101-.67 0-1.205-.191-1.596-.574-.391-.384-.59-.894-.59-1.533 0-.678.239-1.23.726-1.644.487-.415 1.133-.623 1.955-.623.272 0 .551.024.846.064.296.04.6.104.918.176v-.583c0-.607-.127-1.03-.375-1.277-.255-.248-.686-.367-1.3-.367-.28 0-.568.031-.863.103-.296.072-.583.16-.862.272a2.287 2.287 0 0 1-.28.104.488.488 0 0 1-.127.023c-.112 0-.168-.08-.168-.247v-.391c0-.128.016-.224.056-.28a.597.597 0 0 1 .224-.167c.279-.144.614-.264 1.005-.36a4.84 4.84 0 0 1 1.246-.151c.95 0 1.644.216 2.091.647.439.43.662 1.085.662 1.963v2.586zm-3.24 1.214c.263 0 .534-.048.822-.144.287-.096.543-.271.758-.51.128-.152.224-.32.272-.512.047-.191.08-.423.08-.694v-.335a6.66 6.66 0 0 0-.735-.136 6.02 6.02 0 0 0-.75-.048c-.535 0-.926.104-1.19.32-.263.215-.39.518-.39.917 0 .375.095.655.295.846.191.2.47.296.838.296z"/>
+                        </svg>
+                    </div>
+                    <div class="cert-content">
+                        <h4>AWS Certified Solutions Architect</h4>
+                        <p>Amazon Web Services</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon google">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                            <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                            <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                            <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                        </svg>
+                    </div>
+                    <div class="cert-content">
+                        <h4>Data Analytics Professional</h4>
+                        <p>Google</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon nosql">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                            <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+                            <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+                        </svg>
+                    </div>
+                    <div class="cert-content">
+                        <h4>NoSQL Essential Training</h4>
+                        <p>LinkedIn Learning</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-content">
+                    <span class="section-tag">Contact</span>
+                    <h2 class="section-title">Let's Build<br><span class="gradient-text">Something Great</span></h2>
+                    <p>Looking for a Data Engineer who can turn complex data challenges into elegant solutions? Let's connect.</p>
+                    <div class="contact-links">
+                        <a href="mailto:baanusankaroo7.bs@gmail.com" class="contact-link">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">baanusankaroo7.bs@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="tel:+12145008463" class="contact-link">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-label">Phone</span>
+                                <span class="contact-value">214-500-8463</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-visual">
+                    <div class="contact-card glass">
+                        <div class="card-header">
+                            <div class="avatar">BSB</div>
+                            <div class="card-title">
+                                <h4>Baanu Sai Sankar Bojja</h4>
+                                <span>Data Engineer</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-stat">
+                                <span class="stat-value">5+</span>
+                                <span class="stat-desc">Years of Experience</span>
+                            </div>
+                            <div class="card-stat">
+                                <span class="stat-value">$1.2M+</span>
+                                <span class="stat-desc">GMV Recovered</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <span class="status-indicator"></span>
+                            <span>Available for opportunities</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>© 2024 Baanu Sai Sankar Bojja. Crafted with precision.</p>
+                <div class="footer-links">
+                    <a href="mailto:baanusankaroo7.bs@gmail.com">Email</a>
+                    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                    <a href="https://github.com" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
